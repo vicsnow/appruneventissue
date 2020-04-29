@@ -26,8 +26,8 @@ const view = (state) => (
 const update = {
   "change": (state, which) => {
     switch (which) {
-      case "1": return { content: <Test1 /> }
-      case "2": return { content: <Test2 /> }
+      case "1": return { content: <Test1 id="test1"/> }
+      case "2": return { content: <Test2 id="test2"/> }
       case "3": return { content: <Test3 /> }
     }
   },
