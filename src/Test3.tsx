@@ -1,2 +1,2 @@
-import app, { Component } from "apprun"
+import app from "apprun"
 export default () => <div>test3 (functional component) </div>
